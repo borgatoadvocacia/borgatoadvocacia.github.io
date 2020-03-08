@@ -30,7 +30,7 @@ ul.flat{
 }
 
 .post-title, .entry-title{
-  font-family: &#39;Fjalla One&#39;, sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 1.3em;
   color: #4c4b4b;
   margin: 0 0 3rem;
@@ -46,7 +46,7 @@ ul.flat{
           font-size: 1.2em !important;
           background: transparent !important;
           line-height: inherit !important;
-          font-family: &#39;Lato&#39;, sans-serif !important;
+          font-family: "Lato", sans-serif !important;
           text-align: justify !important;
           padding-top: 1%;
           margin-top: 0;
@@ -88,7 +88,7 @@ h2.date-header{
 }
 
 .item-title, .post-summary h3{
-  font-family: &#39;Fjalla One&#39;, sans-serif;
+  font-family: "Fjalla One", sans-serif;
   text-transform: uppercase;
   color: #4c4b4b;
   align-self: flex-start;
@@ -173,7 +173,7 @@ display: run-in;
 
 input[type=submit]{
 background: #867457;
-font-family: &#39;Lato&#39;, sans-serif;
+font-family: "Lato", sans-serif;
 color: #fff;
 font-weight: bold;
 font-size: 0.8em;
@@ -214,7 +214,7 @@ html {
 
 body{
   background-color: #f4f4f4;
-  font-family: &#39;Lato&#39;, sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   padding: 0;
@@ -241,7 +241,7 @@ a{
 }
 
 h1{
-  font-family: &#39;Fjalla One&#39;, sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 6em !important;
   text-transform: uppercase;
 }
@@ -573,7 +573,7 @@ h1#pagetitle, h1.page-title{
 }
 
 .content li{
-  list-style-image: url(&#39;https://magedbgt.github.io/exorcisamus/svg/svg2/checkmark.svg&#39;);
+  list-style-image: url("https://magedbgt.github.io/exorcisamus/svg/svg2/checkmark.svg");
   list-style-type: none;
   list-style-position: inside;
 }
@@ -830,7 +830,7 @@ div.copy{
   }
 
   #logo{
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(&#39;https://4.bp.blogspot.com/-TY-fSONxOEU/XG89FwWsk7I/AAAAAAAANtA/cfnBUJaqLn4cwMOOGXdNxaZpM-AFuG9pwCLcBGAs/s1600/teste4-mobile.png&#39;) no-repeat -0 -0;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://4.bp.blogspot.com/-TY-fSONxOEU/XG89FwWsk7I/AAAAAAAANtA/cfnBUJaqLn4cwMOOGXdNxaZpM-AFuG9pwCLcBGAs/s1600/teste4-mobile.png") no-repeat -0 -0;
     background-size: cover;
     }
 
@@ -940,7 +940,7 @@ div.copy{
 @media only screen  and (min-width : 768px) {
 /* Styles */
 #logo{
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(&#39;https://3.bp.blogspot.com/-34UuX-T5ceA/XG89FzYWIsI/AAAAAAAANtE/Ct5saufJnjMyx_kIDuYMmPRZyMcxxfPiwCLcBGAs/s1600/teste4-laptop.png&#39;) no-repeat -0 -0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://3.bp.blogspot.com/-34UuX-T5ceA/XG89FzYWIsI/AAAAAAAANtE/Ct5saufJnjMyx_kIDuYMmPRZyMcxxfPiwCLcBGAs/s1600/teste4-laptop.png") no-repeat -0 -0;
   background-size: cover;
   }
 }
@@ -967,7 +967,7 @@ div.copy{
   }
 
   #logo{
-   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(&#39;https://3.bp.blogspot.com/-iK9t_lfGpuk/XG89GUanxFI/AAAAAAAANtI/KNWSyhmyi_Esij6JG7ZSfY-K9ht-xuY4QCLcBGAs/s1600/teste4.png&#39;) no-repeat -0 -0;
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://3.bp.blogspot.com/-iK9t_lfGpuk/XG89GUanxFI/AAAAAAAANtI/KNWSyhmyi_Esij6JG7ZSfY-K9ht-xuY4QCLcBGAs/s1600/teste4.png") no-repeat -0 -0;
    background-size: cover;
   }
 
