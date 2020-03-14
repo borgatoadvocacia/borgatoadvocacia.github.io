@@ -431,11 +431,11 @@ color: #f5deb3;
 
 /*Areas*/
 
-#atuacao{
+.atuacao{
   margin-top: 3.5%;
 }
 
-#atuacao .box{
+.atuacao .box{
   float: left;
   text-align: center;
   vertical-align: middle;
@@ -458,7 +458,7 @@ color: #f5deb3;
   text-align: justify !important;
 }
 
-#atuacao .fas, #atuacao .far{
+.atuacao .fas, .atuacao .far{
 padding: 0;
 }
 
@@ -479,7 +479,7 @@ margin: 0 0 12% 0;
   padding: 0;
 }
 
-#atuacao .box:hover{
+.atuacao .box:hover{
   background: #a39072;
 }
 
@@ -758,7 +758,7 @@ div.copy{
   header #scale,
   header nav,
   header nav li,
-  #atuacao .box,
+  .atuacao .box,
   div.contato,
   div.mapa,
   section.area,
@@ -889,7 +889,7 @@ div.copy{
     text-align: center;
   }
 
-  #atuacao .box{
+  .atuacao .box{
     margin-right:0;
     margin-left: 0;
     background: #a39072 !important;
@@ -996,7 +996,7 @@ div.copy{
    background-size: cover;
   }
 
-  #atuacao{
+  .atuacao{
    padding-top: 4%;
   }
 
