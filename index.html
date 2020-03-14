@@ -14,7 +14,7 @@
     <meta content='image/png' property='og:image:type'/>
     <meta content='300' property='og:image:width'/>
     <meta content='300' property='og:image:height'/>
-    <script src="https://kit.fontawesome.com/a2ff3d6682.js" crossorigin="anonymous"></script>
+    <script crossorigin='anonymous' src='https://kit.fontawesome.com/a2ff3d6682.js'/>
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Lato:300' rel='stylesheet'/>
     <link href='https://borgatoadvocacia.github.io/css/style.min.css' rel='stylesheet'/>
     <link href='https://borgatoadvocacia.github.io/svg/apple-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'/>
@@ -1692,3 +1692,20 @@ function resize(){
     </b:section>
 </body>
 </html>
+
+
+<form action="https://mailthis.to/celioborgato@adv.oabsp.org.br" method="POST" encType="multipart/form-data" id="form">
+    <label for="name">Nome</label>
+   <input type="text" name="name" placeholder="Seu nome">
+   <label for="_replyto">E-mail</label>
+   <input type="email" name="_replyto" placeholder="Seu email">
+   <label for="phone">Telefone</label>
+   <input type="text" name="phone" placeholder="(ddd) 12345-1234">
+   <label for="message">Mensagem</label>
+   <textarea name="message" placeholder="Sua mensagem"></textarea>
+   <input type="hidden" name="_subject" value="Contact form submitted">
+   <input type="hidden" name="_after" value="https://www.borgatoadvocacia.com.br/fomulario_enviado">
+   <input type="hidden" name="_honeypot" value="">
+   <input type="hidden" name="_confirmation" value="Mensagem enviada!">
+   <input type="submit" value="Send">
+</form>
