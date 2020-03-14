@@ -1,10 +1,10 @@
 //variaveis
 let coll = document.getElementsByClassName("collapsible"),
-resize = document.getElementById('main'),
+main = document.getElementById('main'),
 i;
 
 //events
-resize.addEventListener("load", function() {resize(this);}, false);
+main.addEventListener("load", function() {resize(this);}, false);
 
 //abrir e fechar menu e busca
 function openNav() {
