@@ -280,7 +280,7 @@
         <h1>BORGATO ADVOCACIA</h1>
       </div>
     </section>
-    <section id='main' class="atuacao">
+    <section class='atuacao' id='main'>
       <div class='container'>
 
           <div class='box cx1'>
@@ -1486,105 +1486,6 @@
     </footer>
 
     <b:section id='nada'>
-      <b:widget id='HTML7' locked='false' title='search' type='HTML'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>&lt;script&gt;
-function openNav() {
-  document.getElementById(&quot;close-menu&quot;).style.display = &quot;block&quot;;
-  document.getElementById(&quot;html-scroll&quot;).style.overflow = &quot;hidden&quot;;
-  document.getElementById(&quot;mySidenav&quot;).style.width = &quot;100vw&quot;;
-}
-
-function closeNav() {
-  document.getElementById(&quot;html-scroll&quot;).style.overflow = &quot;auto&quot;;
-  document.getElementById(&quot;close-menu&quot;).style.display = &quot;none&quot;;
-  document.getElementById(&quot;mySidenav&quot;).style.width = &quot;0&quot;;
-}
-
-function openSearch() {
-  document.getElementById(&quot;myOverlay&quot;).style.display = &quot;block&quot;;
-  document.getElementById(&quot;mySidenav&quot;).style.width = &quot;0&quot;;
-  document.getElementById(&quot;html-scroll&quot;).style.overflow = &quot;hidden&quot;;
-}
-
-function closeSearch() {
-  document.getElementById(&quot;myOverlay&quot;).style.display = &quot;none&quot;;
-  document.getElementById(&quot;html-scroll&quot;).style.overflow = &quot;auto&quot;;
-}
-
-&lt;/script&gt;</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-      </b:widget>
-      <b:widget id='HTML6' locked='false' title='top' type='HTML'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>&lt;script&gt;function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}&lt;/script&gt;</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-      </b:widget>
-      <b:widget id='HTML4' locked='false' title='resize main' type='HTML' version='1'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>&lt;script&gt;window.addEventListener(&quot;load&quot;, resize, false);
-
-function resize(){
-  let sectionFooter = document.getElementById(&quot;footer1&quot;),
-  footer = document.getElementById(&quot;footer2&quot;),
-  header = document.getElementById(&quot;header&quot;),
-  sectionFooter1 = window.getComputedStyle(sectionFooter, null).height,
-  footer1 = window.getComputedStyle(footer, null).height,
-  header1 = window.getComputedStyle(header, null).height,
-  sectionFooterFloat = parseFloat(sectionFooter1),
-  footerFloat = parseFloat(footer1),
-  headerFloat = parseFloat(header1),
-  sumHeight = sectionFooterFloat + footerFloat + headerFloat,
-  screenHeight = window.screen.height,
-  screenHeightFloat = parseFloat(screenHeight),
-  minHeight = screenHeightFloat - sumHeight +&quot;px&quot;,
-  screenWidth = window.screen.width;
-
-  if(screenWidth &gt;= 1024){
-    document.getElementById(&quot;main&quot;).style.minHeight = minHeight;
-  }
-}
-&lt;/script&gt;</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-            <b:if cond='data:blog.url != data:blog.homepageUrl'>
-              <!-- only display title if it's non-empty -->
-            <b:if cond='data:title != &quot;&quot;'>
-              <h2 class='title'><data:title/></h2>
-            </b:if>
-            <div class='widget-content'>
-              <data:content/>
-            </div>
-
-            <b:include name='quickedit'/>
-          </b:if>
-        </b:includable>
-      </b:widget>
       <b:widget id='HTML3' locked='false' title='' type='HTML' version='1'>
         <b:widget-settings>
           <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
@@ -1625,78 +1526,7 @@ function resize(){
           <b:include name='quickedit'/>
         </b:includable>
       </b:widget>
-      <b:widget id='HTML2' locked='false' title='' type='HTML' version='1'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>&lt;script&gt;
-            var coll = document.getElementsByClassName(&quot;collapsible&quot;);
-            var i;
-
-            for (i = 0; i &lt; coll.length; i++) {
-              coll[i].addEventListener(&quot;click&quot;, function() {
-                this.classList.toggle(&quot;active&quot;);
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight){
-                  content.style.maxHeight = null;
-                } else {
-                  content.style.maxHeight = content.scrollHeight + &quot;px&quot;;
-                }
-              });
-            }
-            &lt;/script&gt;</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-        <!-- only display title if it's non-empty -->
-          <b:if cond='data:title != &quot;&quot;'>
-            <h2 class='title'><data:title/></h2>
-          </b:if>
-          <div class='widget-content'>
-            <data:content/>
-          </div>
-
-          <b:include name='quickedit'/>
-        </b:includable>
-      </b:widget>
-      <b:widget id='HTML1' locked='false' title='resize atuacao' type='HTML' version='1'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>&lt;script&gt;window.addEventListener(&quot;load&quot;, resize, false);
-
-function resize(){
-  let sectionFooter = document.getElementById(&quot;footer1&quot;),
-  footer = document.getElementById(&quot;footer2&quot;),
-  header = document.getElementById(&quot;header&quot;),
-  sectionFooter1 = window.getComputedStyle(sectionFooter, null).height,
-  footer1 = window.getComputedStyle(footer, null).height,
-  header1 = window.getComputedStyle(header, null).height,
-  sectionFooterFloat = parseFloat(sectionFooter1),
-  footerFloat = parseFloat(footer1),
-  headerFloat = parseFloat(header1),
-  sumHeight = sectionFooterFloat + footerFloat + headerFloat,
-  screenHeight = window.screen.height,
-  screenHeightFloat = parseFloat(screenHeight),
-  minHeight = screenHeightFloat - sumHeight +&quot;px&quot;,
-  screenWidth = window.screen.width;
-
-  if(screenWidth &gt;= 1024){
-    document.getElementById(&quot;atuacao&quot;).style.minHeight = minHeight;
-  }
-}
-&lt;/script&gt;</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-          <b:if cond='data:blog.url == data:blog.homepageUrl'>
-          <!-- only display title if it's non-empty -->
-            <b:if cond='data:title != &quot;&quot;'>
-              <h2 class='title'><data:title/></h2>
-            </b:if>
-            <div class='widget-content'>
-              <data:content/>
-            </div>
-
-            <b:include name='quickedit'/>
-          </b:if>
-        </b:includable>
-      </b:widget>
     </b:section>
-    <script src="https://borgatoadvocacia.github.io/main.js" charset="utf-8"></script>
+    <script charset='utf-8' src='https://borgatoadvocacia.github.io/main.js'/>
   </body>
 </html>

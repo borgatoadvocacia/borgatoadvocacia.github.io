@@ -56,7 +56,7 @@ function resize(el){
   minHeight = screenHeightFloat - sumHeight +"px";
 
   if(screenWidth >= 1024){
-    document.getElementById(el).style.minHeight = minHeight;
+    el.style.minHeight = minHeight;
   }
 }
 

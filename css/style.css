@@ -483,6 +483,10 @@ margin: 0 0 12% 0;
   background: #a39072;
 }
 
+.atuacao .box:hover > *{
+  color: #fff;
+}
+
 /*sobre*/
 
 article#sobre{
