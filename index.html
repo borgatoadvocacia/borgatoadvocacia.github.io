@@ -8,7 +8,7 @@
     <meta content='Celio Borgato' name='author'/>
     <meta content='Direito Tributário, Família, Consumidor e Ambiental' name='description'/>
     <b:if cond='data:blog.url == data:blog.homepageUrl'>
-    <title>Borgato Advocacia</title>
+      <title>Borgato Advocacia</title>
     </b:if>
     <meta content='https://borgatoadvocacia.github.io/svg/ba.png' property='og:image'/>
     <meta content='image/png' property='og:image:type'/>
@@ -16,7 +16,7 @@
     <meta content='300' property='og:image:height'/>
     <script crossorigin='anonymous' src='https://kit.fontawesome.com/a2ff3d6682.js'/>
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Lato:300' rel='stylesheet'/>
-    <link href='https://borgatoadvocacia.github.io/css/style.min.css' rel='stylesheet'/>
+    <link href='https://borgatoadvocacia.github.io/css/style.css' rel='stylesheet'/>
     <link href='https://borgatoadvocacia.github.io/svg/apple-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'/>
     <link href='https://borgatoadvocacia.github.io/svg/apple-icon-60x60.png' rel='apple-touch-icon' sizes='60x60'/>
     <link href='https://borgatoadvocacia.github.io/svg/apple-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'/>
@@ -30,14 +30,11 @@
     <link href='https://borgatoadvocacia.github.io/svg/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'/>
     <link href='https://borgatoadvocacia.github.io/svg/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png'/>
     <link href='https://borgatoadvocacia.github.io/svg/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'/>
-    <link href='https://borgatoadvocacia.github.io/svg/manifest.json' rel='manifest'/>
     <meta content='#a39072' name='msapplication-TileColor'/>
     <meta content='https://borgatoadvocacia.github.io/svg/ms-icon-144x144.png' name='msapplication-TileImage'/>
     <meta content='#a39072' name='theme-color'/>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'/>
-    <script defer='defer' src='https://apps.elfsight.com/p/platform.js'/>
     <script>cookieChoices = {};</script>
-
     <b:skin><![CDATA[ /*  ]]></b:skin>
 
   </head>
@@ -122,6 +119,16 @@
     <!-- contato -->
     <b:if cond='data:blog.pageId == 2158264895566063102'>
       <title>Contato &#8226; Borgato Advocacia</title>
+      <style>
+         .fpost1, .asidesection, #main2{
+          display: none;
+        }
+      </style>
+    </b:if>
+
+    <!-- formulario after -->
+    <b:if cond='data:blog.pageId == 7876290879329263650'>
+      <title>Mensagem Enviada! &#8226; Borgato Advocacia</title>
       <style>
          .fpost1, .asidesection, #main2{
           display: none;
@@ -1692,22 +1699,3 @@ function resize(){
     </b:section>
 </body>
 </html>
-
-
-<form action="https://mailthis.to/celioborgato@adv.oabsp.org.br" method="POST" encType="multipart/form-data" id="form">
-    <label for="name">Nome</label>
-   <input type="text" name="name" placeholder="Seu nome">
-   <label for="_replyto">E-mail</label>
-   <input type="email" name="_replyto" placeholder="Seu email">
-   <label for="phone">Telefone</label>
-   <input type="text" name="phone" placeholder="(ddd) 12345-1234">
-   <label for="message">Mensagem</label>
-   <textarea name="message" placeholder="Sua mensagem"></textarea>
-   <input type="hidden" name="_subject" value="Contact form submitted">
-   <input type="hidden" name="_after" value="https://www.borgatoadvocacia.com.br/fomulario_enviado">
-   <input type="hidden" name="_honeypot" value="">
-   <input type="hidden" name="_confirmation" value="Mensagem enviada!">
-   <div class="container">
-     <input type="submit" value="Enviar">
-   </div>
-</form>
