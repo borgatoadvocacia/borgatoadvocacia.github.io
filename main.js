@@ -1,8 +1,7 @@
 //variaveis
 let coll = document.getElementsByClassName("collapsible"),
 resize = document.getElementById('main'),
-i,
-;
+i;
 
 //events
 resize.addEventListener("load", function() {resize(this);}, false);
