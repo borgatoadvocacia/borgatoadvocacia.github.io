@@ -984,6 +984,10 @@ div.copy{
   #floating .fa-bars{
     color: gray;
   }
+
+  #form{
+    width: 100%;
+  }
 }
 
 /* Desktops and laptops ----------- */
