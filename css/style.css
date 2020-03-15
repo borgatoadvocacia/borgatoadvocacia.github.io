@@ -378,12 +378,23 @@ color: #f5deb3;
 
 }
 
-.sidenav a {
+.sidenav a, .sidenav button {
   padding: 1% 5% 1% 5%;
   color: #fff;
   display: block;
   transition: .4s;
+  font-size: 2rem;
+  border-bottom: 2px #a39072 solid;
+  width: 80%;
+  text-align: center;
 }
+
+.sidenav button{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
 /*
 .sidenav a:hover {
   color: #fff;
@@ -406,16 +417,8 @@ color: #f5deb3;
     border: none;
 }
 
-.navA:hover, .navA:focus, .navB a:hover, .sidenav .closebtn:hover{
+.sidenav a:hover, .sidenav a:focus, .navB a:hover, .sidenav .closebtn:hover{
   font-weight: bold;
-}
-
-.navA{
-  font-size: 2rem;
-  border-bottom: 2px #a39072 solid;
-  text-align: left;
-  width: 80%;
-  text-align: center;
 }
 
 
@@ -715,6 +718,7 @@ div.copy{
 
 .overlay .closebtn:hover {
   color: #a39072;
+  background: transparent;
 }
 
 .overlay input[type=text] {
