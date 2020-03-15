@@ -1,23 +1,31 @@
 //variaveis
 let coll = document.getElementsByClassName("collapsible"),
 main = document.getElementById('main'),
+floating = document.getElementById('floating'),
+closeMenu = document.getElementById('close-menu'),
 i;
 
 //events
 main.addEventListener("load", function() {resize(this);}, false);
+floating.addEventListener("load", function() {nav('hidden','100vw');}, false);
+closeMenu.addEventListener("load", function() {nav('auto','0');}, false);
 
 //abrir e fechar menu e busca
-function openNav() {
-  document.getElementById("close-menu").style.display = "block";
-  document.getElementById("html-scroll").style.overflow = "hidden";
-  document.getElementById("mySidenav").style.width = "100vw";
+function nav(htmlOverflow, panelWidth){
+  document.getElementById("html-scroll").style.overflow = htmlOverflow;
+  document.getElementById("mySidenav").style.width = panelWidth;
 }
-
-function closeNav() {
-  document.getElementById("html-scroll").style.overflow = "auto";
-  document.getElementById("close-menu").style.display = "none";
-  document.getElementById("mySidenav").style.width = "0";
-}
+// function openNav() {
+//   document.getElementById("close-menu").style.display = "block";
+//   document.getElementById("html-scroll").style.overflow = "hidden";
+//   document.getElementById("mySidenav").style.width = "100vw";
+// }
+//
+// function closeNav() {
+//   document.getElementById("html-scroll").style.overflow = "auto";
+//   document.getElementById("close-menu").style.display = "none";
+//   document.getElementById("mySidenav").style.width = "0";
+// }
 
 function openSearch() {
   document.getElementById("myOverlay").style.display = "block";
