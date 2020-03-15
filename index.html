@@ -230,7 +230,8 @@
 
     <!-- pesquisar -->
     <div class='overlay' id='myOverlay'>
-      <span class='closebtn' onclick='closeSearch()' title='Close Overlay'>&#215;</span>
+      <button class="closebtn" id="close-menu" onclick="closeNav()">&#215;</button>
+      <!-- <span class='closebtn' onclick='closeSearch()' title='Close Overlay'>&#215;</span> -->
       <div class='overlay-content'>
         <form action='/search' method='get'>
           <input name='q' placeholder='Pesquisar' required='' type='text'/>
@@ -241,7 +242,8 @@
 
     <!-- mobile menu -->
     <div class='sidenav' id='mySidenav'>
-      <a class='closebtn' href='javascript:void(0)' id='close-menu' onclick='closeNav()'>&#215;</a>
+      <button class="closebtn" id="close-menu" onclick="closeNav()">&#215;</button>
+      <!-- <a class='closebtn' href='javascript:void(0)' id='close-menu' onclick='closeNav()'>&#215;</a> -->
       <a class='navA' href='javascript:void(0)' onclick='openSearch()'>Pesquisar&#160;</a>
       <a class='navA' href='https://www.borgatoadvocacia.com.br/'>Home</a>
       <a class='navA' href='/p/sobre_28.html'>Quem Somos</a>

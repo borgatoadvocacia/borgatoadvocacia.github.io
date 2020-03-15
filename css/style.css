@@ -340,7 +340,7 @@ img#logosvg{
   min-height: 3rem;
 }
 
-div#advname{]
+div#advname{
 float: left;
 width: 23%;
 height: auto;
@@ -369,7 +369,7 @@ color: #f5deb3;
   padding-top: 0;
   text-align: center;
   background-color: rgb(76,75,75);
-  background-color: rgba(76,75,75, 0.9);
+  background-color: rgba(76,75,75, 0.97);
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -380,22 +380,30 @@ color: #f5deb3;
 
 .sidenav a {
   padding: 1% 5% 1% 5%;
-  text-decoration: none;
   color: #fff;
   display: block;
   transition: .4s;
 }
-
+/*
 .sidenav a:hover {
   color: #fff;
-}
+} */
 
-.sidenav .closebtn {
+/* .sidenav .closebtn {
   position: absolute;
   top: -31px;
   right: 19px;
   font-size: 6rem;
-  color: #fff;
+} */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    font-size: 6rem;
+    color: #fff;
+    background: transparent;
+    border: none;
 }
 
 .navA:hover, .navA:focus, .navB a:hover, .sidenav .closebtn:hover{
