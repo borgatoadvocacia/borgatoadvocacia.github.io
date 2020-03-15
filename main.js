@@ -1,5 +1,6 @@
 //variaveis
-let coll = document.getElementsByClassName("collapsible"),
+let
+// coll = document.getElementsByClassName("collapsible"),
 main = document.getElementById('main'),
 floating = document.getElementById('floating'),
 floating_ = document.getElementById('floating_'),
@@ -71,14 +72,14 @@ function resize(el){
 
 
 //menu atuacao
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    let content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-}
+// for (i = 0; i < coll.length; i++) {
+//   coll[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     let content = this.nextElementSibling;
+//     if (content.style.maxHeight){
+//       content.style.maxHeight = null;
+//     } else {
+//       content.style.maxHeight = content.scrollHeight + "px";
+//     }
+//   });
+// }
