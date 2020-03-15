@@ -172,13 +172,17 @@ display: run-in;
 }
 
 input[type=submit]{
-background: #867457;
+background: #a39072;
 font-family: "Lato", sans-serif;
 color: #fff;
 font-weight: bold;
 font-size: 0.8em;
 vertical-align: middle;
 cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background: #867457;
 }
 
 /*coluna*/
