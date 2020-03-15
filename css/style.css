@@ -378,7 +378,7 @@ color: #f5deb3;
 
 }
 
-.sidenav a, .sidenav button {
+.sidenav a, #close-menu {
   padding: 1% 5% 1% 5%;
   color: #fff;
   display: block;
@@ -393,6 +393,9 @@ color: #f5deb3;
   border-top: none;
   border-left: none;
   border-right: none;
+  background: transparent;
+  text-transform: uppercase;
+
 }
 
 /*
