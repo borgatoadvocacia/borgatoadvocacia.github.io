@@ -11,8 +11,8 @@ i;
 main.addEventListener("load", function() {resize(this);}, false);
 floating.addEventListener("click", function() {nav('hidden','100vw');}, false);
 closeMenu.addEventListener("click", function() {nav('auto','0');}, false);
-floating_.addEventListener("click", function() {search(overlayDisplay, function() {nav('hidden','100vw');});}, false);
-closeOverlay.addEventListener("click", function() {search(overlayDisplay, function() {nav('auto','0');});}, false);
+floating_.addEventListener("click", function() {search('block', function() {nav('hidden','100vw');});}, false);
+closeOverlay.addEventListener("click", function() {search('none', function() {nav('auto','0');});}, false);
 
 
 //abrir e fechar menu e busca
