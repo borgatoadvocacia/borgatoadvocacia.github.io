@@ -396,7 +396,7 @@ color: #f5deb3;
   font-size: 6rem;
 } */
 
-.sidenav .closebtn {
+.sidenav .closebtn, .overlay .closebtn {
     position: absolute;
     top: 0px;
     right: 15px;
@@ -704,14 +704,14 @@ div.copy{
   margin: auto;
 }
 
-.overlay .closebtn {
+/* .overlay .closebtn {
   position: absolute;
   top: -31px;
   right: 19px;
   font-size: 6rem;
   cursor: pointer;
   color: white;
-}
+} */
 
 .overlay .closebtn:hover {
   color: #a39072;
