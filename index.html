@@ -16,7 +16,7 @@
     <meta content='300' property='og:image:height'/>
     <script crossorigin='anonymous' src='https://kit.fontawesome.com/a2ff3d6682.js'/>
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Lato:300' rel='stylesheet'/>
-    <link href='https://borgatoadvocacia.github.io/css/style.css' rel='stylesheet'/>
+    <link href='https://borgatoadvocacia.github.io/css/style.min.css' rel='stylesheet'/>
     <link href='https://borgatoadvocacia.github.io/svg/apple-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'/>
     <link href='https://borgatoadvocacia.github.io/svg/apple-icon-60x60.png' rel='apple-touch-icon' sizes='60x60'/>
     <link href='https://borgatoadvocacia.github.io/svg/apple-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'/>
@@ -231,7 +231,6 @@
     <!-- pesquisar -->
     <div class='overlay' id='myOverlay'>
       <button class="closebtn" id="closeOverlay">&#215;</button>
-      <!-- <span class='closebtn' onclick='closeSearch()' title='Close Overlay'>&#215;</span> -->
       <div class='overlay-content'>
         <form action='/search' method='get'>
           <input name='q' placeholder='Pesquisar' required='' type='text'/>
@@ -243,12 +242,8 @@
     <!-- mobile menu -->
     <div class='sidenav' id='mySidenav'>
       <button class="closebtn" id="close-menu">&#215;</button>
-      <!-- <a class='closebtn' href='javascript:void(0)' id='close-menu' onclick='closeNav()'>&#215;</a> -->
-      <!-- <a class='navA' href='javascript:void(0)' onclick='openSearch()'>Pesquisar&#160;</a> -->
-      <!-- <button id="open-search">Pesquisar</button> -->
       <form action='/search' method='get'>
         <input name='q' placeholder='Pesquisar' required='' type='text'/>
-        <!-- <button type='submit'><i class='fa fa-search'/></button> -->
       </form>
       <a href='https://www.borgatoadvocacia.com.br/'>Home</a>
       <a href='/p/sobre_28.html'>Quem Somos</a>
@@ -1492,6 +1487,6 @@
     </footer>
 
     <b:section id='nada'/>
-    <script charset='utf-8' src='https://borgatoadvocacia.github.io/main.js'/>
+    <script charset='utf-8' src='https://borgatoadvocacia.github.io/main.min.js'/>
   </body>
 </html>
