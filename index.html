@@ -33,7 +33,6 @@
     <meta content='#a39072' name='msapplication-TileColor'/>
     <meta content='https://borgatoadvocacia.github.io/svg/ms-icon-144x144.png' name='msapplication-TileImage'/>
     <meta content='#a39072' name='theme-color'/>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'/>
     <script>cookieChoices = {};</script>
     <b:skin><![CDATA[ /*  ]]></b:skin>
 
@@ -1485,48 +1484,7 @@
       </div>
     </footer>
 
-    <b:section id='nada'>
-      <b:widget id='HTML3' locked='false' title='' type='HTML' version='1'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-              $(&quot;.cx1&quot;).hover(function(){
-                $(&#39;.btn1&#39;).addClass(&#39;fabtn&#39;);
-              },function(){
-                $(&#39;.btn1&#39;).removeClass(&#39;fabtn&#39;);
-              });
-
-              $(&quot;.cx2&quot;).hover(function(){
-                $(&#39;.btn2&#39;).addClass(&#39;fabtn&#39;);
-              },function(){
-                $(&#39;.btn2&#39;).removeClass(&#39;fabtn&#39;);
-              });
-
-              $(&quot;.cx3&quot;).hover(function(){
-                $(&#39;.btn3&#39;).addClass(&#39;fabtn&#39;);
-              },function(){
-                $(&#39;.btn3&#39;).removeClass(&#39;fabtn&#39;);
-              });
-
-              $(&quot;.cx4&quot;).hover(function(){
-                $(&#39;.btn4&#39;).addClass(&#39;fabtn&#39;);
-              },function(){
-                $(&#39;.btn4&#39;).removeClass(&#39;fabtn&#39;);
-              });
-            &lt;/script&gt;</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-          <!-- only display title if it's non-empty -->
-          <b:if cond='data:title != &quot;&quot;'>
-            <h2 class='title'><data:title/></h2>
-          </b:if>
-          <div class='widget-content'>
-            <data:content/>
-          </div>
-
-          <b:include name='quickedit'/>
-        </b:includable>
-      </b:widget>
-    </b:section>
+    <b:section id='nada'/>
     <script charset='utf-8' src='https://borgatoadvocacia.github.io/main.js'/>
   </body>
 </html>
