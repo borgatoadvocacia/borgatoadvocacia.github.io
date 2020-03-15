@@ -5,7 +5,7 @@ floating = document.getElementById('floating'),
 floating_ = document.getElementById('floating_'),
 closeMenu = document.getElementById('close-menu'),
 closeOverlay = document.getElementById('closeOverlay'),
-openSearch = document.getElementById('open-search'),
+// openSearch = document.getElementById('open-search'),
 i;
 
 //events
@@ -13,7 +13,7 @@ main.addEventListener("load", function() {resize(this);}, false);
 floating.addEventListener("click", function() {nav('hidden','100vw');}, false);
 closeMenu.addEventListener("click", function() {nav('auto','0');}, false);
 floating_.addEventListener("click", function() {search('block', function() {nav('hidden','100vw');});}, false);
-openSearch.addEventListener("click", function() {search('block', function() {nav('hidden','100vw');});}, false);
+// openSearch.addEventListener("click", function() {search('block', function() {nav('hidden','100vw');});}, false);
 closeOverlay.addEventListener("click", function() {search('none', function() {nav('auto','0');});}, false);
 
 
