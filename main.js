@@ -7,8 +7,8 @@ i;
 
 //events
 main.addEventListener("load", function() {resize(this);}, false);
-floating.addEventListener("load", function() {nav('hidden','100vw');}, false);
-closeMenu.addEventListener("load", function() {nav('auto','0');}, false);
+floating.addEventListener("click", function() {nav('hidden','100vw');}, false);
+closeMenu.addEventListener("click", function() {nav('auto','0');}, false);
 
 //abrir e fechar menu e busca
 function nav(htmlOverflow, panelWidth){
