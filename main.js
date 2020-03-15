@@ -2,41 +2,40 @@
 let coll = document.getElementsByClassName("collapsible"),
 main = document.getElementById('main'),
 floating = document.getElementById('floating'),
+floating_ = document.getElementById('floating_'),
 closeMenu = document.getElementById('close-menu'),
+closeOverlay = document.getElementById('closeOverlay'),
 i;
 
 //events
 main.addEventListener("load", function() {resize(this);}, false);
 floating.addEventListener("click", function() {nav('hidden','100vw');}, false);
 closeMenu.addEventListener("click", function() {nav('auto','0');}, false);
+floating_.addEventListener("click", function() {search(overlayDisplay, function() {nav('hidden','100vw');});}, false);
+closeOverlay.addEventListener("click", function() {search(overlayDisplay, function() {nav('auto','0');});}, false);
+
 
 //abrir e fechar menu e busca
 function nav(htmlOverflow, panelWidth){
   document.getElementById("html-scroll").style.overflow = htmlOverflow;
   document.getElementById("mySidenav").style.width = panelWidth;
 }
-// function openNav() {
-//   document.getElementById("close-menu").style.display = "block";
+
+function search(overlayDisplay, fct){
+  document.getElementById("myOverlay").style.display = overlayDisplay;
+  fct;
+}
+
+// function openSearch() {
+//   document.getElementById("myOverlay").style.display = "block";
+//   document.getElementById("mySidenav").style.width = "0";
 //   document.getElementById("html-scroll").style.overflow = "hidden";
-//   document.getElementById("mySidenav").style.width = "100vw";
 // }
 //
-// function closeNav() {
+// function closeSearch() {
+//   document.getElementById("myOverlay").style.display = "none";
 //   document.getElementById("html-scroll").style.overflow = "auto";
-//   document.getElementById("close-menu").style.display = "none";
-//   document.getElementById("mySidenav").style.width = "0";
 // }
-
-function openSearch() {
-  document.getElementById("myOverlay").style.display = "block";
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("html-scroll").style.overflow = "hidden";
-}
-
-function closeSearch() {
-  document.getElementById("myOverlay").style.display = "none";
-  document.getElementById("html-scroll").style.overflow = "auto";
-}
 
 function topFunction() {
   document.body.scrollTop = 0;
