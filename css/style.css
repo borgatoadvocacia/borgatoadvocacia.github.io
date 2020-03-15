@@ -396,6 +396,7 @@ color: #f5deb3;
     border: none;
     font-family: inherit;
     color: #9d9d9d;
+    font-size: inherit;
 }
 
 .sidenav form {
@@ -427,7 +428,7 @@ color: #f5deb3;
     position: absolute;
     top: 0px;
     right: 15px;
-    font-size: 6rem;
+    font-size: 4rem;
     color: #fff;
     background: transparent;
     border: none;
@@ -792,6 +793,14 @@ div.copy{
 
 /*media queries*/
 /*mobile*/
+@media(max-width: 500px){
+  .sidenav .closebtn, .overlay .closebtn{
+    font-size: 4rem!important;
+  }
+  .sidenav a{
+    font-size: 1.5rem!important;
+  }
+}
 @media(max-width: 958px){
   header #scale,
   header nav,
